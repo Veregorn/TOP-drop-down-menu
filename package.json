@@ -1,0 +1,28 @@
+{
+  "name": "top-drop-down-menu",
+  "version": "1.0.0",
+  "description": "In this project I'm going to create a drop-down menu using HTML, CSS and Javascript. The idea is to bundle the code into a module and publish it to NPM.",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veregorn/TOP-drop-down-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veregorn/TOP-drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/Veregorn/TOP-drop-down-menu#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
