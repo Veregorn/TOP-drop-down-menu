@@ -1,10 +1,12 @@
-import './styles.css';
+import "./styles.css";
 
-function component() {
-  const element = document.createElement("div");
-  element.innerHTML = "Hello Webpack";
+const aParent = document.querySelectorAll(".a_parent");
 
-  return element;
-}
-
-document.body.appendChild(component());
+aParent.forEach((aParentItem) => {
+  aParentItem.addEventListener('click', () => {
+    aParent.forEach((aParentItem2) => {
+      aParentItem2.classList.remove("active");
+    });
+    aParentItem.classList.add("active");
+  });
+});

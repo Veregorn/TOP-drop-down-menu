@@ -55,9 +55,9 @@
 }
 
 .navbar ul li a:hover,
-.navbar ul li a:active,
+.navbar ul li a.active,
 .navbar .dd_menu ul li a:hover,
-.navbar .dd_menu ul li a:active {
+.navbar .dd_menu ul li a.active {
     background: #c279b7;
 }
 
@@ -65,6 +65,11 @@
     position: absolute;
     top: 80px;
     left: 0;
+    display: none;
+}
+
+.navbar ul li a.a_parent.active + .dd_menu {
+    display: block;
 }
 
 .navbar .dd_menu ul li a {
