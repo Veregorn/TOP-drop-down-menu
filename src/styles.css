@@ -89,3 +89,25 @@
     border: 15px solid;
     border-color: transparent transparent #9972bf transparent;
 }
+
+.dd_submenu {
+    position: absolute;
+    top: 0;
+    left: 115%;
+    width: 100%;
+    display: none;
+}
+
+.navbar ul li a.dd_menu_a.active + .dd_submenu {
+    display: block;
+}
+
+.navbar .dd_submenu:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent #9972bf transparent transparent;
+}
