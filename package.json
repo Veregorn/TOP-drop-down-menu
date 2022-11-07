@@ -2,7 +2,6 @@
   "name": "veregorns-top-drop-down-menu",
   "version": "1.0.0",
   "description": "In this project I'm going to create a drop-down menu using HTML, CSS and Javascript. The idea is to bundle the code into a module and publish it to NPM.",
-  "private": "false",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
