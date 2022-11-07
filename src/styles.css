@@ -20,7 +20,7 @@
     background: #9972bf;
 }
 
-.navbar ul {
+.navbar > ul {
     display: flex;
     justify-content: center;
 }
@@ -55,6 +55,32 @@
 }
 
 .navbar ul li a:hover,
-.navbar ul li a:active {
+.navbar ul li a:active,
+.navbar .dd_menu ul li a:hover,
+.navbar .dd_menu ul li a:active {
     background: #c279b7;
+}
+
+.navbar .dd_menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.navbar .dd_menu ul li a {
+    width: 180px;
+    background: #9972bf;
+    text-align: left;
+    padding: 20px 18px;
+}
+
+.navbar .dd_menu:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent transparent #9972bf transparent;
 }
